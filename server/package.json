@@ -1,0 +1,24 @@
+{
+  "name": "generatereceipt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "lazycipher",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "http-errors": "^2.0.0",
+    "pdf-creator-node": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
